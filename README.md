@@ -49,7 +49,6 @@ app.py: Streamlit web app for user interaction.
 movie_list.pkl: Serialized movie data after preprocessing.
 
 similarity.pkl: Serialized cosine similarity matrix.
-<img width="1436" alt="Screenshot 2024-07-13 at 11 40 42 PM" src="https://github.com/user-attachments/assets/67557456-1268-41b9-b0a3-20a6d36cb9ce">
 <img width="1448" alt="Screenshot 2024-07-13 at 11 39 36 PM" src="https://github.com/user-attachments/assets/fea02a39-e365-4a8f-8e09-6baac7f0550c">
 <img width="1450" alt="Screenshot 2024-07-13 at 11 40 22 PM" src="https://github.com/user-attachments/assets/f671b8b0-2852-4f62-8f86-cb26eb2b2bf2">
 
