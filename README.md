@@ -40,5 +40,7 @@ Streamlit for building the interactive recommendation interface.
 -Files Included
 
 app.py: Streamlit web app for user interaction.
+
 movie_list.pkl: Serialized movie data after preprocessing.
+
 similarity.pkl: Serialized cosine similarity matrix.
