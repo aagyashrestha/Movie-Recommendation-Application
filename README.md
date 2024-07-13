@@ -2,7 +2,7 @@ Movie Recommendation System
 
 This project builds a movie recommendation system using data from the TMDb (The Movie Database). It utilizes natural language processing techniques and cosine similarity to recommend movies based on their plot summaries, genres, keywords, cast, and crew.
 
-Dataset
+-Dataset
 
 Movies Data: tmdb_5000_movies.csv
 Credits Data: tmdb_5000_credits.csv
@@ -11,30 +11,33 @@ Features Extracted
 Extracted features include movie_id, title, overview, genres, keywords, cast, and crew.
 Data preprocessing involved cleaning, transforming JSON strings, and feature selection.
 
-Methodology
+-Methodology
 
-Text Processing:
+1)Text Processing:
 
 Converted JSON strings to lists of relevant features (genres, keywords, cast, crew).
 Processed text data for overview, removing stopwords and special characters.
-Feature Engineering:
+
+2)Feature Engineering:
 
 Combined relevant features into a unified tags column.
 Used CountVectorizer to transform tags into numerical vectors.
-Similarity Calculation:
+
+3)Similarity Calculation:
 
 Applied cosine similarity on vectorized tags to compute movie similarities.
-Recommendation:
+
+4)Recommendation:
 
 Implemented a function to recommend movies based on user input.
 
-Technologies Used
+-Technologies Used
 
 Python, pandas, numpy for data manipulation.
 scikit-learn for text processing and similarity calculations.
 Streamlit for building the interactive recommendation interface.
 
-Files Included
+-Files Included
 
 app.py: Streamlit web app for user interaction.
 movie_list.pkl: Serialized movie data after preprocessing.
