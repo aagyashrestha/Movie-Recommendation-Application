@@ -25,6 +25,7 @@ def recommend(movie):
 
 
 st.header('Movie Recommender System')
+
 movies = pickle.load(open('movie_list.pkl','rb'))
 similarity = pickle.load(open('similarity.pkl','rb'))
 
@@ -53,3 +54,5 @@ if st.button('Show Recommendation'):
     with col5:
         st.text(recommended_movie_names[4])
         st.image(recommended_movie_posters[4])
+st.image('imgg.png')
+st.write('-Aagya Shrestha')
